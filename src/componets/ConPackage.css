@@ -1,0 +1,28 @@
+.App {
+    text-align: center;
+  }
+  
+  .card-header {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .scroll-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+  }
+  
+  .scroll-to-top svg {
+    font-size: 1.5rem;
+    color: white;
+  }
+  

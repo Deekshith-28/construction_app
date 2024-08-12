@@ -1,0 +1,122 @@
+.App {
+    text-align: center;
+  }
+  
+  .main {
+    position: relative;
+    background-color: #f0f0f0;
+    height: 100vh;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/1400_opt_1/44e26150117351.58c7f1b688c91.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .header {
+    padding: 20px;
+    color: white;
+    text-align: left;
+   
+  }
+  
+  .header .highlight {
+    font-size: 2.5em;
+    color: orange;
+  }
+  
+  .save-badge {
+    background-color: orange;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-top: 20px;
+  }
+  
+  .form-container {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  
+  .form-container h3 {
+    margin-bottom: 20px;
+  }
+  
+  .form-container form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .form-container input,
+  .form-container select,
+  .form-container button {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .form-container button {
+    background-color: orange;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  .btn-wide {
+    width: 100%;
+    padding: 10px 0;
+    color: white;
+}
+.btn-wide:hover {
+  cursor: pointer;
+  background-color:darkorange ;
+}
+  .form-container button:hover {
+    background-color: darkorange;
+  }
+  
+  .expertise {
+    margin: 50px 0;
+  }
+  
+  .expertise h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+  }
+  
+  .expertise .highlight {
+    color: orange;
+  }
+  
+  .expertise-icons {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .expertise-item {
+    text-align: center;
+  }
+  
+  .expertise-item p {
+    font-size: 1em;
+    color: #333;
+    margin-top: 10px;
+  }
+  
+  
+  @media screen and (max-width:560px){
+    .first{
+      display: none;
+    }
+  }
+  @media screen and (min-width:560px){
+    .second{
+      display: none;
+    }
+  }

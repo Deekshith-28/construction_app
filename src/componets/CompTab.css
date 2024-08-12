@@ -1,0 +1,24 @@
+.container {
+    margin-top: 20px;
+  }
+  
+  .table thead th {
+    text-align: center;
+    vertical-align: middle;
+  }
+  
+  .table tbody td {
+    vertical-align: middle;
+  }
+  
+  .table .bg-success {
+    background-color: #FFB300 !important;
+  }
+  
+  .table .text-white {
+    color: #ffffff !important;
+  }
+  .dot::marker{
+    color: #FFB300;
+  }
+  
